@@ -1,0 +1,62 @@
+#game {
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -40%);
+}
+#red, #green, #blue, #yellow {
+  width: 200px;
+  height: 200px;
+  float: left;
+  opacity: .5;
+}
+#red:hover, #green:hover, #blue:hover, #yellow:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+#red {
+  background-color: #f00;
+  border-top-left-radius: 100%;
+}
+#red:hover, #red.hover {
+  box-shadow: -3px -3px 3px rgba(255,0,0,0.8), 3px 3px 3px rgba(255,0,0,0.8);
+  opacity: 1;
+}
+#green {
+  background-color: #0f0;
+  border-top-right-radius: 100%;
+}
+#green:hover, #green.hover {
+  box-shadow: 3px -3px 3px rgba(0,255,0,0.8), -3px 3px 3px rgba(0,255,0,0.8);
+  opacity: 1;
+}
+#blue {
+  background-color: #00f;
+  clear: both;
+  border-bottom-left-radius: 100%;
+}
+#blue:hover, #blue.hover {
+  box-shadow: -3px 3px 3px rgba(0,0,255,0.8), 3px -3px 3px rgba(0,0,255,0.8);
+  opacity: 1;
+}
+#yellow {
+  background-color: yellow;
+  border-bottom-right-radius: 100%;
+}
+#yellow:hover, #yellow.hover {
+  box-shadow: 3px 3px 3px rgba(255,255,0,0.8), -3px -3px 3px rgba(255,255,0,0.8);
+  opacity: 1;
+}
+#round, .header {
+  display: inline;
+}
+#words {
+  position: absolute;
+  top:15%;
+  left: 80%;
+  transform: translate(-80%, -15%);
+}
+#start:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
