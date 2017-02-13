@@ -18,6 +18,7 @@ _Simon clone using JS_
 * `gulp build`
 * `gulp serve`
 * go to localhost:3000 and play the game
+* or go [here](https://meichsteadt.github.io/simonJS)
 
 ## Known Bugs
 
